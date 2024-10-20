@@ -1,8 +1,20 @@
 export default function Responsive() {
   return (
+    <>
+      {}
+      <header className="header">
+        <h1 className="header-title">Self Development</h1>
+        <nav className="header-nav">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </nav>
+      </header>
+      {}
     <div className="parentContainer">
       <div className="childContainer">
         <div className="imageContainer">
+
           <h1 className="title">Building Confidence</h1>
           <p className="description">
             {" "}
@@ -66,5 +78,15 @@ export default function Responsive() {
         </div>
       </div>
     </div>
+  
+   {/* Footer Section */}
+   <footer className="footer">
+        <p>© 2024 Syeda Um-e-Habiba Fatima All rights reserved</p>
+        <nav className="footer-nav">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </nav>
+      </footer>
+    </>
   );
 }
